@@ -35,7 +35,7 @@ nav ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin-left: 250px;
+    margin-left: -120px;
 }
 
 nav ul li a{
@@ -43,7 +43,8 @@ nav ul li a{
     font-size: 20px;
     font-weight: 400;
     color: #fff;
-    margin-left: 70px;
+    margin-left: 0px;
+    margin-right: 80px;
 }
 
 nav ul li a:hover{
@@ -84,7 +85,7 @@ nav ul li a:hover{
     opacity: .6;
 }
 
-.header_main_content img{
+.header_main_img img{
     margin-left: -120px;
     margin-top: -10px;
     width: 700px;
@@ -95,6 +96,7 @@ nav ul li a:hover{
 .social_media{
     padding-left: 30px;
     padding-bottom: 50px;
+    
 }
 
 svg{
@@ -111,3 +113,13 @@ svg{
 svg:hover {
     opacity: .6;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/*celulares*/    
+
+}
+
+@media screen and (min-device-width: 1200px) {
+/*computadores*/    
+}
+
