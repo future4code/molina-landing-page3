@@ -15,15 +15,25 @@ body, input {
     width: 100%;
     min-height: 100vh;
     background-color: #dae5e8;
-    overflow: hidden;
+    display: flex;
 }
 
 .form-container {
-    position: absolute;
+    position:absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    justify-content: center;
+}
+
+.signup-signin {
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 form {
@@ -31,6 +41,12 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-right: 1.6%;
+    margin-left: 1%;
+}
+
+.sign-up-form {
+    margin-top: 15px;
 }
 
 .title {
@@ -53,6 +69,7 @@ form {
 
 .input-field {
     text-align: center;
+    align-items: center;
     line-height: 55px;
     color: #686962bb;
     font-size: 1.1rem;
@@ -95,4 +112,29 @@ form {
 .social-text {
     padding: 0.7rem 0;
     font-size: 1rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #4481eb;
+    border-color: #4481eb;
 }
