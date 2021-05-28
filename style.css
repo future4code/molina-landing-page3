@@ -53,11 +53,12 @@ main {
     background-color: #dae5e8;
 }
 
+/* Estilização primeiro bloco de conteúdo*/
+
 .primeiro-bloco {
     width: 100vw;
     display: flex;
     height: 90vh;
-    
 }
 
 .sobre-nos {
@@ -137,6 +138,9 @@ main {
 
 }
 
+
+/* Estilização segundo bloco de conteúdo*/
+
 .segundo-bloco {
     background-color: #6869627e;
     display: flex;
@@ -145,6 +149,8 @@ main {
     height: 85vh;
     justify-content: space-around;
 }
+
+/* Estilização terceiro bloco de conteúdo*/
 
 .terceiro-bloco {
     display: flex;
@@ -155,7 +161,7 @@ main {
 }
 
 .card-produto-terceiro {
-    height: 25%;
+    height: 20%;
 }
 
 #img-card-terceiro {
