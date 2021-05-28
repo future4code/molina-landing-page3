@@ -71,12 +71,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem;
+    padding: 2.5rem;
 }
 
 .sobre-nos h2{
     margin: .5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -84,7 +84,7 @@ main {
     text-align: justify;
     margin-top: 2rem;
     padding: 0rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 .social-text {
@@ -154,9 +154,13 @@ main {
     height: 91vh;
 }
 
+.card-produto-terceiro {
+    height: 25%;
+}
+
 #img-card-terceiro {
     width: 50%;
-    margin-top: 160px;
+    margin-top: 20px;
     margin-left: 160px;    
 }
 
@@ -274,7 +278,7 @@ button:hover {
     .primeiro-bloco {
         flex-direction: column;
         width: 100vw;
-        height: 800px;
+        height: 600px;
     }
     
     .sobre-nos {
@@ -282,11 +286,11 @@ button:hover {
     }
     
     .sobre-nos h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .sobre-nos p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .card-produto-principal {
@@ -301,44 +305,48 @@ button:hover {
         margin-left: 60px;
     }
 
-    #img-card-terceiro {
-        margin-top: 60px;
-        margin-left: 150px;
+    #img-card-principal:hover {
+        transform: rotate(-20deg);
     }
+
     
     .segundo-bloco {
         height: 2000px;
         display: grid;
     }
-
-    .card {
-        margin: 0;
-    }
-
-    .container {
-        margin:0;
-    }
+    
     
     .terceiro-bloco {
+        height: 700px;
         flex-direction: column;
         width: 100vw;
     }
-
-    .segundo-bloco .container {
-        margin-top: 2rem;
-    }
-    .card-produto-terceiro  {
+    
+    .card-produto-terceiro {
         height: 100px;
+    }
+        
+    #img-card-terceiro {
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    
+    .signup-signin {
+        height: 400px; 
+        align-items: center; 
+        margin-top: 6rem;  
     }
 
     .texto-formulario {
         width: 100%; 
-        margin: 0;   
+        margin: 0;
+        height: 200px;   
     }
-
+    
     .texto-formulario h2 {
-        margin: 1rem;
+        margin: 2rem;
         margin-bottom: 0;
+        font-size: 1.5rem;
     }
     
     .title {
@@ -349,4 +357,5 @@ button:hover {
         margin-left: 0;
         margin-top: 3rem;
     }
+
 }
