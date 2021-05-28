@@ -59,7 +59,6 @@ main {
     width: 100vw;
     display: flex;
     height: 90vh;
-    
 }
 
 .sobre-nos {
@@ -73,7 +72,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem;
+    padding: 2.5rem;
 }
 
 .sobre-nos h2{
@@ -162,7 +161,7 @@ main {
 }
 
 .card-produto-terceiro {
-    height: 25%;
+    height: 20%;
 }
 
 #img-card-terceiro {
