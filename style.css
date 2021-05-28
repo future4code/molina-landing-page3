@@ -37,15 +37,17 @@ header img {
 
 nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     display: flex;
 }
 
-ul li {
+ul li a {
     margin: 1.5rem;
-    color: #fff;
+    color: black;
 }
 
 li:hover {
@@ -286,7 +288,6 @@ button:hover {
         height: 120px;
         flex-direction: column;
         align-items: center;
-
     }
 
     header img {
@@ -299,6 +300,10 @@ button:hover {
     nav {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .menu-superior ul li a {
+        color:black;
     }
 
         
