@@ -53,6 +53,8 @@ main {
     background-color: #dae5e8;
 }
 
+/* Estilização primeiro bloco de conteúdo*/
+
 .primeiro-bloco {
     width: 100vw;
     display: flex;
@@ -71,7 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2.5rem;
+    padding: 5rem;
 }
 
 .sobre-nos h2{
@@ -137,6 +139,9 @@ main {
 
 }
 
+
+/* Estilização segundo bloco de conteúdo*/
+
 .segundo-bloco {
     background-color: #6869627e;
     display: flex;
@@ -145,6 +150,8 @@ main {
     height: 85vh;
     justify-content: space-around;
 }
+
+/* Estilização terceiro bloco de conteúdo*/
 
 .terceiro-bloco {
     display: flex;
