@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/* Estilização menu superior*/
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #dae5e8;
+    height: 110px;
+    z-index: 1000;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 1.5rem;
+    color: #fff;
+}
+
+li:hover {
+    opacity: 0.6;
+}
+
+/*Estilização main*/
+
+main {
+    background-color: #dae5e8;
+}
+
+.primeiro-bloco {
+    width: 100vw;
+    display: flex;
+    height: 90vh;
+    
+}
+
+.sobre-nos {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto-descritivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.sobre-nos h2{
+    margin: .5rem;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.sobre-nos p {
+    text-align: justify;
+    margin-top: 2rem;
+    padding: 0rem;
+    font-size: 1.8rem;
+}
+
+.social-text {
+    padding: 0.7rem 0;
+    font-size: 1rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    border-radius: 30%;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color:white;
+    border-color: white;
+}
+
+.card-produto-principal {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-card-principal {
+    width: 50%;
+    border-radius: 20%;
+    transform: rotate(-30deg);
+    margin-top: 160px;
+    margin-left: 160px;
+}
+
+#img-card-principal:hover {
+    transition: 0.5s;
+    transform: rotate(-5deg);
+
+}
+
+.segundo-bloco {
+    background-color: #6869627e;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+    justify-content: space-around;
+}
+
+.terceiro-bloco {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c9d6da;
+    height: 91vh;
+}
+
+#img-card-terceiro {
+    width: 50%;
+    margin-top: 160px;
+    margin-left: 160px;    
+}
+
+.texto-formulario {
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.texto-formulario h2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.texto-formulario #img-card-principal {
+    margin-top: 6rem;
+    width: 20rem;
+}
+
+.signup-signin {
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1.6%;
+    margin-left: 1%;
+    width: 80%;
+}
+
+
+.sign-up-form {
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 2.2rem;
+    color:#2e3237;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #6869622d;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0.4rem;
+}
+
+.input-field {
+    text-align: center;
+    align-items: center;
+    line-height: 55px;
+    color: #686962bb;
+    font-size: 1.1rem;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #2e3237;
+}
+
+.input-field input::placeholder{
+    color: #686962;
+    font-weight: 500;
+}
+
+button {
+    font-size: 25px;
+    padding: 14px 20px;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #fa8072;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+button:hover {
+    color:rgb(53, 52, 52);
+    background-color: rgb(250, 89, 31);
+}
+
+
+/*Roberthividade Iphone*/
+
+@media screen and (min-device-width : 320px) and (max-device-width : 680px) {
+    header {
+        height: 70px;
+    }
+    
+    .primeiro-bloco {
+        flex-direction: column;
+        width: 100vw;
+        height: 800px;
+    }
+    
+    .sobre-nos {
+        width: 100%;
+    }
+    
+    .sobre-nos h2 {
+        font-size: 2rem;
+    }
+    
+    .sobre-nos p {
+        font-size: 1.5rem;
+    }
+    
+    .card-produto-principal {
+        width: 100vw;
+        height: 200px;
+        align-items: center;
+    } 
+    
+    #img-card-principal {
+        transform: rotate(0deg);
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    #img-card-terceiro {
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+    
+    .segundo-bloco {
+        height: 2000px;
+        display: grid;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .container {
+        margin:0;
+    }
+    
+    .terceiro-bloco {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .segundo-bloco .container {
+        margin-top: 2rem;
+    }
+    .card-produto-terceiro  {
+        height: 100px;
+    }
+
+    .texto-formulario {
+        width: 100%; 
+        margin: 0;   
+    }
+
+    .texto-formulario h2 {
+        margin: 1rem;
+        margin-bottom: 0;
+    }
+    
+    .title {
+        font-size: 2.2rem;
+        color:#2e3237;
+        margin-bottom: 10px;
+        justify-content: left;
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+}
