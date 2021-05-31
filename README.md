@@ -13,42 +13,43 @@
 -Coleta de dados do formulário - necessário implantação de JS;
 
   _Pendências:_
-- [ ] Botões do menu superior - necessário implantação de JS;
-- [ ] Dependendo da resolução o site apresenta barra de rolagem horizontal, verificar motivo;
-- [ ] Implantar efeitos no card principal (tenis);
-- [ ] Alterar font;
-- [ ] Criar link surge e realizar teste em Desktop e Celular;
+- [ ] Botões do menu superior - necessário implantação de JS - Pendência finalizada - Implantação de CSS com ref para a div correspondente;
+- [ ] Dependendo da resolução o site apresenta barra de rolagem horizontal, verificar motivo - Pendência finalizada - Atualização border box;
+- [ ] Implantar efeitos no card principal (tenis) - Pendência finalizada - Atualização feita conforme planejamento;
+- [ ] Alterar font - Pendência finalizada - Atualização feita conforme planejamento;
+- [ ] Criar link surge e realizar teste em Desktop e Celular  - Pendência finalizada - Atualização feita conforme planejamento;
 
 ### :computer: Link Surge
-http://hoc-ladybug.surge.sh/#terceiro-bloco
+http://irate-form.surge.sh/
 
 ### :camera: Imagens Desktop
 
 - **Página inicial**
-![image](https://user-images.githubusercontent.com/80704054/120004749-84037a80-bfad-11eb-9807-271a1779c63d.png)
+![image](https://user-images.githubusercontent.com/80704054/120126240-03ea3a00-c192-11eb-8b9e-59bfcf27ff75.png)
+
+
+- **Card Principal Animação**
+![image](https://user-images.githubusercontent.com/80704054/120126261-1bc1be00-c192-11eb-8a3a-af7f1998a2b9.png)
+
 
 - **Card Produtos**
-![image](https://user-images.githubusercontent.com/80704054/120004815-98477780-bfad-11eb-989f-a85e9a432f33.png)
+![image](https://user-images.githubusercontent.com/80704054/120126300-3c8a1380-c192-11eb-8282-816a778422ee.png)
 
 - **Card Produtos Animação**
-![image](https://user-images.githubusercontent.com/80704054/120004887-abf2de00-bfad-11eb-8a82-fa18d66dd507.png)
+![image](https://user-images.githubusercontent.com/80704054/120126330-5166a700-c192-11eb-9219-beff7e5c6021.png)
+
 
 - **Formulário de cadastro**
-![image](https://user-images.githubusercontent.com/80704054/120004989-ca58d980-bfad-11eb-80d3-185d7c3a5723.png)
+![image](https://user-images.githubusercontent.com/80704054/120126355-62171d00-c192-11eb-9966-83ffbb34ae95.png)
+
 
 ### :iphone: Imagens Mobile
 
-- **Página inicial**
-![image](https://user-images.githubusercontent.com/80704054/120027799-36e1d180-bfca-11eb-982e-c0f911ad94a6.png)
 
-- **Card Produtos**
-![image](https://user-images.githubusercontent.com/80704054/120027717-17e33f80-bfca-11eb-9df8-6c5c0d21b420.png)
-
-- **Card Produtos Animação**
-![image](https://user-images.githubusercontent.com/80704054/120027746-23366b00-bfca-11eb-9714-392bc6a390d6.png)
-
-- **Formulário de cadastro**
-![image](https://user-images.githubusercontent.com/80704054/120027545-e10d2980-bfc9-11eb-906e-fab1e0fb7e7b.png)
+![image](https://user-images.githubusercontent.com/80704054/120126374-70fdcf80-c192-11eb-8cbe-4037846e34db.png)
+![image](https://user-images.githubusercontent.com/80704054/120126389-79560a80-c192-11eb-97e2-c3fe19e6c029.png)
+![image](https://user-images.githubusercontent.com/80704054/120126404-82df7280-c192-11eb-927c-aaab126fdf07.png)
+![image](https://user-images.githubusercontent.com/80704054/120126412-8a9f1700-c192-11eb-8598-f52675c3523b.png)
 
 ### :pencil: Observações
 
