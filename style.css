@@ -23,7 +23,6 @@ header {
     top: 0;
     width: 100%;
     justify-content: space-between;
-    background-color: #dae5e8;
     height: 110px;
     z-index: 1000;
 }
@@ -56,9 +55,6 @@ li:hover {
 
 /*Estilização main*/
 
-main {
-    background-color: #dae5e8;
-}
 
 /* Estilização primeiro bloco de conteúdo*/
 
@@ -66,6 +62,9 @@ main {
     width: 100vw;
     display: flex;
     height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .sobre-nos {
@@ -280,7 +279,6 @@ button:hover {
     background-color: rgb(250, 89, 31);
 }
 
-
 /*Roberthividade Iphone*/
 
 @media screen and (min-device-width : 320px) and (max-device-width : 680px) {
@@ -310,7 +308,7 @@ button:hover {
     .primeiro-bloco {
         flex-direction: column;
         width: 100vw;
-        height: 550px;
+        height: 900px;
     }
 
     .texto-descritivo {
