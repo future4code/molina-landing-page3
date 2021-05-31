@@ -1,9 +1,12 @@
+@import url('http://fonts.googleleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap')
+;
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration:none; 
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -117,11 +120,13 @@ li:hover {
     font-size: 2rem;
     border-radius: 30%;
     transition: 0.3s;
+
 }
 
 .social-icon:hover {
     color:white;
     border-color: white;
+    background-color: #2e3237;
 }
 
 .card-produto-principal {
