@@ -1,9 +1,12 @@
+@import url('http://fonts.googleleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap')
+;
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration:none; 
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -23,7 +26,6 @@ header {
     top: 0;
     width: 100%;
     justify-content: space-between;
-    background-color: #dae5e8;
     height: 110px;
     z-index: 1000;
 }
@@ -56,9 +58,6 @@ li:hover {
 
 /*Estilização main*/
 
-main {
-    background-color: #dae5e8;
-}
 
 /* Estilização primeiro bloco de conteúdo*/
 
@@ -66,6 +65,9 @@ main {
     width: 100vw;
     display: flex;
     height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .sobre-nos {
@@ -118,11 +120,13 @@ main {
     font-size: 2rem;
     border-radius: 30%;
     transition: 0.3s;
+
 }
 
 .social-icon:hover {
     color:white;
     border-color: white;
+    background-color: #2e3237;
 }
 
 .card-produto-principal {
@@ -280,7 +284,6 @@ button:hover {
     background-color: rgb(250, 89, 31);
 }
 
-
 /*Roberthividade Iphone*/
 
 @media screen and (min-device-width : 320px) and (max-device-width : 680px) {
@@ -310,7 +313,7 @@ button:hover {
     .primeiro-bloco {
         flex-direction: column;
         width: 100vw;
-        height: 550px;
+        height: 900px;
     }
 
     .texto-descritivo {

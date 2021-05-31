@@ -9,39 +9,40 @@
 
 }
 
-section {
-    display: flex;
+body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:#232323;
+    background:#dae5e8;
     overflow: hidden;
-    
     box-sizing: border-box;
+    z-index: -50;
 }
 
-section::before{
+body::before{
     content: '';
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ef3b36;
+    background: #AFD6EE;
     clip-path: circle(65% at 100% -20%);
+    z-index: -50;
 
-}section::after{
+}
+body::after{
     content: '';
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #47aafa;
+    background: #a7d3ee;
     clip-path: circle(35% at 0% 100%);
+    z-index: -50;
 }
-
-.container{
+.container-card-principal{
     position: relative;
     z-index: 10;
     display: flex;
@@ -50,7 +51,7 @@ section::before{
     flex-wrap: wrap;
 }
 
-.container .card{
+.container-card-principal .card{
     position: relative;
     width: 300px;
     height: 400px;
@@ -65,7 +66,7 @@ section::before{
 
 }
 
-.container .card .imgBx{
+.container-card-principal .card .imgBx{
     position: relative;
     display: flex;
     justify-content: center;
@@ -76,26 +77,26 @@ section::before{
 }
 
 
-.container .card:hover .imgBx{
+.container-card-principal .card:hover .imgBx{
     transform: translateY(-100px)
 }
 
-.container .card .imgBx img{
+.container-card-principal .card .imgBx img{
     max-width: 100%;
     margin: 0 0 20px;
     transition: 0.5s ease-in-out;
 }
 
-.container .card:hover .imgBx img{
+.container-card-principal .card:hover .imgBx img{
     transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
 }
 
-.container .card .imgBx h2{
-    color: #fff;
+.container-card-principal .card .imgBx h2{
+    color: black;
     font-weight: 600;
 }
 
-.container .card .content{
+.container-card-principal .card .content{
     position: absolute;
     bottom: 20px;
     display: flex;
@@ -107,23 +108,23 @@ section::before{
     visibility: hidden;
 }    
 
-.container .card:hover .content{
-    opacity: 0;
+.container-card-principal .card:hover .content{
+    opacity: 1;
     visibility: visible;
     transform:  translateY(-50px);
 
 }
-.container .card .content .size,
-.container .card .content .color{
+.container-card-principal .card .content .size,
+.container-card-principal .card .content .color{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 20px;
 }
 
-.container .card .content .size h3,
-.container .card .content .color h3{
-    color: #fff;
+.container-card-principal .card .content .size h3,
+.container-card-principal .card .content .color h3{
+    color: black;
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
@@ -131,7 +132,7 @@ section::before{
     margin-right: 10px;
 }
 
-.container .card .content .size span{
+.container-card-principal .card .content .size span{
     width: 26px;
     height: 26px;
     text-align: center;
@@ -147,11 +148,11 @@ section::before{
     cursor: pointer;
 }
 
-.container .card .content .size span:hover{
+.container-card-principal .card .content .size span:hover{
     background: #9bdc28;
 }
 
-.container .card .content .color span{
+.container-card-principal .card .content .color span{
     width: 20px;
     height: 20px;
     background: #F00;
@@ -162,19 +163,19 @@ section::before{
     cursor: pointer;
 }
 
-.container .card .content .color span:nth-child(2){
-    background: #9bdc28;
+.container-card-principal .card .content .color span:nth-child(2){
+    background: #ffffff;
 }    
 
-.container .card .content .color span:nth-child(3){
+.container-card-principal .card .content .color span:nth-child(3){
     background: #03a9f4;
 }    
 
-.container .card .content .color span:nth-child(4){
-    background: #e91e63;
+.container-card-principal .card .content .color span:nth-child(4){
+    background: #000000;
 }    
 
-.container .card .content a{
+.container-card-principal .card .content a{
     position: relative;
     top: 10px;
     display: inline-block;
@@ -187,3 +188,14 @@ section::before{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 680px) {
+
+    body::before{
+        
+        background: #c8e1f0;
+
+    }
+       
+}    
