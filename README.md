@@ -20,7 +20,7 @@
 - [ ] Criar link surge e realizar teste em Desktop e Celular  - Pendência finalizada - Atualização feita conforme planejamento;
 
 ### :computer: Link Surge
-http://irate-form.surge.sh/
+http://messy-education.surge.sh/
 
 ### :camera: Imagens Desktop
 
@@ -33,10 +33,11 @@ http://irate-form.surge.sh/
 
 
 - **Card Produtos**
-![image](https://user-images.githubusercontent.com/80704054/120126300-3c8a1380-c192-11eb-8282-816a778422ee.png)
+![image](https://user-images.githubusercontent.com/80704054/120127985-537f3480-c197-11eb-8eba-2269078240f8.png)
+
 
 - **Card Produtos Animação**
-![image](https://user-images.githubusercontent.com/80704054/120126330-5166a700-c192-11eb-9219-beff7e5c6021.png)
+![image](https://user-images.githubusercontent.com/80704054/120128000-6134ba00-c197-11eb-9eee-783b3fed9038.png)
 
 
 - **Formulário de cadastro**
@@ -47,7 +48,7 @@ http://irate-form.surge.sh/
 
 
 ![image](https://user-images.githubusercontent.com/80704054/120126374-70fdcf80-c192-11eb-8cbe-4037846e34db.png)
-![image](https://user-images.githubusercontent.com/80704054/120126389-79560a80-c192-11eb-97e2-c3fe19e6c029.png)
+![image](https://user-images.githubusercontent.com/80704054/120128030-74e02080-c197-11eb-99bb-4b2781a325ed.png)
 ![image](https://user-images.githubusercontent.com/80704054/120126404-82df7280-c192-11eb-927c-aaab126fdf07.png)
 ![image](https://user-images.githubusercontent.com/80704054/120126412-8a9f1700-c192-11eb-8598-f52675c3523b.png)
 
@@ -62,3 +63,9 @@ http://irate-form.surge.sh/
 
 - Kanban atualizado (Backlog / To do / In progress / Done)
 ![image](https://user-images.githubusercontent.com/80704054/120005465-3afff600-bfae-11eb-9409-9aaf88ae1443.png)
+
+
+### :construction_worker: Autores
+
+**Raphael - @raphaelnicolini<p>
+Thaís - @tshadz**
