@@ -1,25 +1,24 @@
-###  :office: == Projeto semana 4 - Landing Page ==
+##  :office: == Projeto semana 4 - Landing Page ==
 
 ###  :white_check_mark: O que funciona
 
--Responsividade em tela IPhone 6/7/8 está quase 100%;
--Responsividade Desktop 1820px;
--Animação card's de produto e card tela principal;
--Botões de redes sociais com link para uma nova aba;
+<p>-Responsividade em tela IPhone 6/7/8 está quase 100%;</p>
+<p>-Responsividade Desktop 1820px;</p>
+<p>-Animação card's de produto e card tela principal;</p>
+<p>-Botões de redes sociais com link para uma nova aba;</p>
 
 ###  :x: O que não funciona
 
--Botões menu superior - necessário implantação de JS;
--Coleta de dados do formulário - necessário implantação de JS;
+  -Coleta de dados do formulário - necessário implantação de sistema de coleta;
 
-  _Pendências:_
-- [ ] Botões do menu superior - necessário implantação de JS - Pendência finalizada - Implantação de CSS com ref para a div correspondente;
-- [ ] Dependendo da resolução o site apresenta barra de rolagem horizontal, verificar motivo - Pendência finalizada - Atualização border box;
-- [ ] Implantar efeitos no card principal (tenis) - Pendência finalizada - Atualização feita conforme planejamento;
-- [ ] Alterar font - Pendência finalizada - Atualização feita conforme planejamento;
-- [ ] Criar link surge e realizar teste em Desktop e Celular  - Pendência finalizada - Atualização feita conforme planejamento;
+ #### _Pendências:_
+<p>:heavy_check_mark: Botões do menu superior - necessário implantação de JS - Pendência finalizada - Implantação de CSS com ref para a div correspondente;</p>
+<p>:heavy_check_mark: Dependendo da resolução o site apresenta barra de rolagem horizontal, verificar motivo - Pendência finalizada - Atualização border box;</p>
+<p>:heavy_check_mark: Implantar efeitos no card principal (tenis) - Pendência finalizada - Atualização feita conforme planejamento;</p>
+<p>:heavy_check_mark: Alterar font - Pendência finalizada - Atualização feita conforme planejamento;</p>
+<p>:heavy_check_mark: Criar link surge e realizar teste em Desktop e Celular  - Pendência finalizada - Atualização feita conforme planejamento;</p>
 
-### :computer: Link Surge
+### :computer: Link Surge - link para visualização do site
 http://messy-education.surge.sh/
 
 
