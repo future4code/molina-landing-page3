@@ -1,0 +1,201 @@
+@import url('http://fonts.googleleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap')
+;
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#dae5e8;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: -50;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #AFD6EE;
+    clip-path: circle(65% at 100% -20%);
+    z-index: -50;
+
+}
+body::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a7d3ee;
+    clip-path: circle(35% at 0% 100%);
+    z-index: -50;
+}
+.container-card-principal{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-card-principal .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+
+}
+
+.container-card-principal .card .imgBx{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.container-card-principal .card:hover .imgBx{
+    transform: translateY(-100px)
+}
+
+.container-card-principal .card .imgBx img{
+    max-width: 100%;
+    margin: 0 0 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.container-card-principal .card:hover .imgBx img{
+    transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
+}
+
+.container-card-principal .card .imgBx h2{
+    color: black;
+    font-weight: 600;
+}
+
+.container-card-principal .card .content{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}    
+
+.container-card-principal .card:hover .content{
+    opacity: 1;
+    visibility: visible;
+    transform:  translateY(-50px);
+
+}
+.container-card-principal .card .content .size,
+.container-card-principal .card .content .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.container-card-principal .card .content .size h3,
+.container-card-principal .card .content .color h3{
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.container-card-principal .card .content .size span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0 5px;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container-card-principal .card .content .size span:hover{
+    background: #9bdc28;
+}
+
+.container-card-principal .card .content .color span{
+    width: 20px;
+    height: 20px;
+    background: #F00;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.container-card-principal .card .content .color span:nth-child(2){
+    background: #ffffff;
+}    
+
+.container-card-principal .card .content .color span:nth-child(3){
+    background: #03a9f4;
+}    
+
+.container-card-principal .card .content .color span:nth-child(4){
+    background: #000000;
+}    
+
+.container-card-principal .card .content a{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    padding: 12px 30px;
+    background: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 680px) {
+
+    body::before{
+        
+        background: #c8e1f0;
+
+    }
+       
+}    
